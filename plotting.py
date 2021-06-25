@@ -2,7 +2,7 @@ import matplotlib.pyplot as plt
 import cartopy.feature as cfeature
 import cartopy.crs as ccrs
 
-def plot_setup_(plot_range = [-125.25,-66,22.5,50], figsize = (7,5), central_lon=0, state_borders=True):
+def plot_setup(plot_range = [-125.25,-66,22.5,50], figsize = (7,5), central_lon=0, state_borders=True):
     '''Function sets up plotting environment for continental US. 
 	"plot_range" is geographical extent, in format [lon1, lon2, lat1, lat2]
         "figsize" controls size of figure.
