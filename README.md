@@ -6,7 +6,7 @@ Functions are in `plotting.py`, and examples are found in `examples.py`. Data ca
 To run examples:
 1. clone the repository
 2. download the data using the link above
-3. in terminal, type `python examples.py` (examples can also be copied to jupyter notebook)  
+3. Run code cells in the ```examples.ipynb``` file  
   
 Note: it may be necessary to download new packages.
 
